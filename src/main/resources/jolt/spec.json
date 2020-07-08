@@ -1,0 +1,53 @@
+[
+	{
+		"operation": "shift",
+		"spec": {
+			"prescripcion": {
+				"NoPrescripcion": "prescripcion.numero",
+				"FPrescripcion": "prescripcion.fecha",
+				"HPrescripcion": "prescripcion.hora",
+				"CodEPS": "prescripcion.codigoEps",
+				"TipoTransc": "prescripcion.tipoTranscripcion",
+				"EstPres": "prescripcion.estado",
+				"CodHabIPS": "prescripcion.ips.codigoHabilitacion",
+				"TipoIDIPS": "prescripcion.ips.id.tipo",
+				"NroIDIPS": "prescripcion.ips.id.numero",
+				"CodDANEMunIPS": "prescripcion.ips.codigoDane",
+				"DirSedeIPS": "prescripcion.ips.direccion",
+				"TelSedeIPS": "prescripcion.ips.telefono",
+				"TipoIDProf": "prescripcion.profesional.id.tipo",
+				"NumIDProf": "prescripcion.profesional.id.numero",
+				"PNProfS": "prescripcion.profesional.nombre.primerNombre",
+				"SNProfS": "prescripcion.profesional.nombre.segundoNombre",
+				"PAProfS": "prescripcion.profesional.nombre.primerApellido",
+				"SAProfS": "prescripcion.profesional.nombre.segundoApellido",
+				"RegProfS": "prescripcion.profesional.registroProfesional",
+				"TipoIDPaciente": "prescripcion.paciente.id.tipo",
+				"NroIDPaciente": "prescripcion.paciente.id.numero",
+				"PNPaciente": "prescripcion.paciente.nombre.primerNombre",
+				"SNPaciente": "prescripcion.paciente.nombre.segundoNombre",
+				"PAPaciente": "prescripcion.paciente.nombre.primerApellido",
+				"SAPaciente": "prescripcion.paciente.nombre.segundoApellido",
+				"CodAmbAte": "prescripcion.ambitoAtencion.codigo",
+				"RefAmbAte": "prescripcion.ambitoAtencion.referencia",
+				"EnfHuerfana": "prescripcion.enfermedadHuerfana.tiene",
+				"CodEnfHuerfana": "prescripcion.enfermedadHuerfana.codigo",
+				"EnfHuerfanaDX": "prescripcion.enfermedadHuerfana.esDiagnosticoPrincipal",
+				"CodDxPpal": "prescripcion.diagnostico.principal",
+				"CodDxRel1": "prescripcion.diagnostico.relacionado[0]",
+				"CodDxRel2": "prescripcion.diagnostico.relacionado[1]",
+				"SopNutricional": "prescripcion.soporteNutrional.requiere",
+				"TipoIDMadrePaciente": "prescripcion.paciente.madre.id.tipo",
+				"NroIDMadrePaciente": "prescripcion.paciente.madre.id.numero",
+				"TipoIDDonanteVivo": "prescripcion.donanteVivo.id.tipo",
+				"NroIDDonanteVivo": "prescripcion.donanteVivo.id.numero",
+				"medicamentos": {
+					"*": {
+						"ConOrden": "prescripcion.medicamentos.orden",
+						"TipoMed": "prescripcion.medicamentos.tipo"
+					}
+				}
+			}
+		}
+	}
+]
